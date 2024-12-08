@@ -1,0 +1,188 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f1f1;
+    color: #000;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 33px;
+    padding: 20px;
+  }
+  
+  /* Dropdown container styling */
+  .dropdown {
+    display: inline-block;
+    margin-right: 20px; /* Adds spacing between items */
+    position: relative;
+  }
+  
+  .dropdown summary {
+    color: white;
+    text-decoration: none;
+    margin: 0 40px;
+    font-size: 33px;
+  }
+  
+  .dropdown-list {
+    list-style: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 400px;
+    display: block;
+  }
+  
+  .dropdown-list li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+  }
+  
+  .dropdown-list li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .nav-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 700px;
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  
+  .login-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 40px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+.text {
+  color: #000000;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 400px;
+  position: absolute;
+  left: 641px;
+  top: 59px;
+}
+.tick-1 {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  left: 80px;
+  top: 1000px;
+  object-fit: cover;
+}
+.tick-2 {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  left: 80px;
+  top: 750px;
+  object-fit: cover;
+}
+.tick-3 {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  left: 80px;
+  top: 500px;
+  object-fit: cover;
+}
+.text1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: -400px;
+  top: 940px;
+  width: 1348px;
+}
+.text2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: -400px;
+  top: 440px;
+  width: 1348px;
+}
+.text3{
+  color: #000000;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: -400px;
+  top: 690px;
+  width: 1227px;
+  
+}
+.photo-3 {
+  width: 742px;
+  height: 686px;
+  position: absolute;
+  left: 1158px;
+  top: 350px;
+  object-fit: cover;
+}
+.main-text{
+  color: #000000;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 80px;
+  font-weight: bold;
+  position: absolute;
+  left: 68px;
+  top: 182px;
+  width: 1747px;
+  height: 204px;
+  white-space: nowrap;
+}
+.before-page {
+  width: 100%;
+  max-width: 100px;
+  margin: 45px 0;
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+}
