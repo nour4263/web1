@@ -23,10 +23,9 @@ body {
   padding: 20px;
 }
 
-/* Dropdown container styling */
 .dropdown {
   display: inline-block;
-  margin-right: 20px; /* Adds spacing between items */
+  margin-right: 20px;
   position: relative;
 }
 
@@ -146,7 +145,7 @@ body {
 .payment-icons {
   width: 100%;
   max-width: 1350px;
-  margin-top: -80px; /* Closer to the email bar */
+  margin-top: -80px;
   margin-left: 70px;
 }
 

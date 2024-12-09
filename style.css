@@ -1,0 +1,104 @@
+body {
+    font-family: 'PT Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  .login-prompt {
+    margin: 20px 0;
+  }
+  
+  .login-prompt a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+  }
+  
+  .form-section {
+    background: #fff;
+    padding: 30px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    width: 35%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 1.2em;
+  }
+  
+  input {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-family: 'PT Mono', monospace;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
